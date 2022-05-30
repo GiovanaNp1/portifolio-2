@@ -1,0 +1,147 @@
+header{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    margin-top: 10px;
+    width: 20%;
+    box-shadow: 20px -16px #F2A1AB;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-weight: 100;
+    margin: 20px;
+}
+
+h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.projetos{
+    background-color: #ffffffa3;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal img{
+    width: 30%;
+    height: fit-content;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+.text-sobre{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Open Sans';
+
+}
+
+li{
+    font-size: 18px;
+    padding: 25px;
+}
+
+.formacao{
+    background-color: ;
+    display: flex;
+    justify-content: center;
+}
+
+.article-lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-titulo{
+    font-size: 30px;
+}
+
+a{
+    padding-left: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: #F2A1AB;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background: linear-gradient(90deg, rgba(255,57,144,1) 0%, rgba(238,174,202,1) 35%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 20%;
+}
+
+.card img{
+    width: auto;
+}
+
+footer img{
+    width: 20px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social img{
+   margin-right: 20px;
+}
